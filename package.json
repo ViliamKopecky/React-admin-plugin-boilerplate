@@ -1,0 +1,28 @@
+{
+  "name": "wp-plugin-boiplerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write ./**/*.{ts,tsx,php}",
+    "start": "parcel src/main.tsx",
+    "build": "parcel build src/main.tsx"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.11.2",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^1.19.1",
+    "sass": "^1.23.6",
+    "typescript": "^3.7.2"
+  }
+}
